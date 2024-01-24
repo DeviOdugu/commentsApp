@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffffff;
+  border: solid #dee0e3 2px;
+  margin: 40px;
+  padding: 30px;
+}
+@media screen and (min-width: 1000px) {
+  .bg {
+    margin-right: 700px;
+  }
+}
+.a {
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.name-input {
+  margin-bottom: 10px;
+}
+.comment {
+  margin-bottom: 10px;
+}
+.button {
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  margin-right: 100px;
+}
+.image {
+  margin-top: 120px;
+  height: 200px;
+  width: 200px;
+}
+@media screen and (max-width: 576px) {
+  .image {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 230px;
+  }
+  .bg {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+.span {
+  background-color: #0284c7;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 10px;
+}
